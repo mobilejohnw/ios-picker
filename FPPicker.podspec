@@ -29,9 +29,13 @@ Pod::Spec.new do |s|
     FPPicker/Shared/FPConfig.h
     FPPicker/Shared/FPConstants.h
     FPPicker/Shared/FPMediaInfo.h
+    FPPicker/Shared/FPUploader.h
+    FPPicker/Shared/FPMultipartUploader.h
+    FPPicker/Shared/FPLibrary.h
   )
 
   s.ios.public_header_files = %w(
+    FPPicker/Platforms/iOS/FPLibrary+iOS.h
     FPPicker/Platforms/iOS/FPPicker.h
     FPPicker/Platforms/iOS/FPPickerController.h
     FPPicker/Platforms/iOS/FPSaveController.h
